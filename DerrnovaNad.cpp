@@ -87,7 +87,7 @@ void StartTitles()
     {
     int t = 0;
 
-    while (t <= 45)
+    while (t <= 450)
         {
         txClear();
         txSetFillColor (TX_WHITE);
