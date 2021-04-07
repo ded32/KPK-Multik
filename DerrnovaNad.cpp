@@ -89,8 +89,6 @@ void StartTitles()
 
     while (t <= 45)
         {
-        printf ("StartTitles(): t = %d\n", i);
-
         txClear();
         txSetFillColor (TX_WHITE);
         txRectangle    (0,   0, 1200, 900);
@@ -98,6 +96,6 @@ void StartTitles()
         txSelectFont   ("Arial", 200);
         txTextOut      (500 + t * 10, 100, "Война миров");
         txSleep        (100);
-        t--;
+        t++;
         }
      }
