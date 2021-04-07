@@ -89,6 +89,8 @@ void StartTitles()
 
     while (t <= 45)
         {
+        printf ("StartTitles(): t = %d\n", i);
+
         txClear();
         txSetFillColor (TX_WHITE);
         txRectangle    (0,   0, 1200, 900);
